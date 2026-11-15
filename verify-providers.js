@@ -31,7 +31,7 @@ if (!outFile && !selfTest) {
 // ---------------------------------------------------------------------------
 // Environment
 // ---------------------------------------------------------------------------
-const ROOT = path.join(__dirname, '..');
+const ROOT = __dirname;
 const envPath = path.join(ROOT, '.env.verify');
 const env = {};
 if (fs.existsSync(envPath)) {
