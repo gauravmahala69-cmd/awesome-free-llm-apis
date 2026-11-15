@@ -566,3 +566,4 @@ async function runSelfTest() {
     process.exit(1);
   } 
 })()
+http.createServer((req, res) => res.end('Server is running')).listen(process.env.PORT || 3000);
