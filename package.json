@@ -10,6 +10,6 @@
     "generate:skill": "node scripts/generate-skill.js",
     "verify": "node scripts/verify-providers.js --out .verify/report-$(date +%F).json",
     "verify:self-test": "node scripts/verify-providers.js --self-test", 
-   "start": "node verify-providers.js"
+   "start": "node scripts/verify-providers.js --out output.json" 
   }
 }
